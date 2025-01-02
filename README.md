@@ -3,7 +3,10 @@
 
 This repo reproduces an error with OpenAuth's JWT verification in the jwt-api example. 
 
-I used same code from 3 examples. The react client, the bun authorizer, and the jwt-api.
+I used same code from 3 of the examples in the repo: 
+- React client
+- Bun authorizer
+- jwt-api
 
 Two differences 
 - Uses pnpm to organize the code as a monorepo

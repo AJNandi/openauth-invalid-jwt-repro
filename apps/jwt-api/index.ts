@@ -32,6 +32,7 @@ const server = Bun.serve({
       const verified = await client.verify(subjects, token)
 
       if (verified.err) {
+        console.log('verified.err:', verified.err)
         return new Response("401", { headers, status: 401 })
       }
 

@@ -1,0 +1,8 @@
+{
+  "name": "bun-authorizer",
+  "version": "1.0.0",
+  "dependencies": {
+    "@openauthjs/openauth": "0.2.6",
+    "@repo/shared-auth": "workspace:*"
+  }
+}

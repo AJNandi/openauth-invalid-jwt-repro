@@ -1,0 +1,17 @@
+{
+  "name": "openauth-invalid-jwt-repro",
+  "version": "1.0.0",
+  "scripts": {
+    "start-auth": "bun run --hot apps/bun-authorizer/index.ts",
+    "start-api": "bun run --hot apps/jwt-api/index.ts"
+  },
+  "devDependencies": {
+     "@types/bun": "latest"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+  }
+}
